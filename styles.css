@@ -29,6 +29,8 @@ p {
 }
 
 .password-btn {
+    display: flex;
+    justify-content: center;
     background-color: #FF9900;
     color: white;
     padding: 0.75rem 1.5rem;
@@ -38,11 +40,14 @@ p {
     cursor: pointer;
     margin-bottom: 1.5rem;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .btn-container {
     display: flex;
-    justify-content: center; /* Centra el botón horizontalmente */
-    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    justify-content: center;
+    width: 100%;
 }
 
 .btn:hover {

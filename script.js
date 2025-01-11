@@ -1,4 +1,4 @@
-let generatePasswords = () => {
+let printPasswords = () => {
     const password1 = generateRandomPassword();
     const password2 = generateRandomPassword();
     document.getElementById("password1").textContent = password1;
