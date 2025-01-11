@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
@@ -19,7 +19,8 @@ h1 {
 }
 
 h1 span {
-    color: #ff6c00;
+    display: block;
+    color: #FF9900;
 }
 
 p {
@@ -27,8 +28,8 @@ p {
     color: #CBD5E1;
 }
 
-.btn {
-    background-color: #ff6c00;
+.password-btn {
+    background-color: #FF9900;
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -36,6 +37,12 @@ p {
     font-size: 1rem;
     cursor: pointer;
     margin-bottom: 1.5rem;
+    align-items: center;
+}
+.btn-container {
+    display: flex;
+    justify-content: center; /* Centra el botón horizontalmente */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
 }
 
 .btn:hover {
@@ -50,7 +57,7 @@ p {
 
 .password-box {
     background-color: #334155;
-    color: white;
+    color: whitesmoke;
     padding: 0.75rem 1rem;
     border-radius: 8px;
     font-family: monospace;
@@ -64,6 +71,6 @@ p {
 
 hr {
     border: 0;
-    border-top: 1px solid #475569;
+    border-top: 1px solid #334155;
     margin: 1.5rem 0;
 }
